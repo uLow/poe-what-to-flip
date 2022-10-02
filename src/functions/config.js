@@ -1,5 +1,5 @@
 export const proxy = url => {
-  return `https://c-hive-proxy.herokuapp.com/${url}`;
+  return `https://thingproxy.freeboard.io/fetch/${url}`;
 };
 
 export const leaguesApi = () => {
